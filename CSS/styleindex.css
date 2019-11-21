@@ -1,0 +1,90 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(196, 196, 196);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+
+    
+}
+
+.dropdownmenu {
+    background-color: rgb(177, 175, 175) ;
+    width: 200px; 
+    text-align: center;
+    margin: auto;
+    left: 50%;
+    margin : 0;
+  padding : 0;
+
+
+}
+
+.dropdownmenu ul { /* Pour les sous-menus */
+list-style-type: none; 
+
+margin: 0px;
+padding: 0px;
+width: 200px;
+}
+.dropdownmenu ul {
+display: none;
+
+}
+.dropdownmenu li {
+position: relative;
+
+
+}
+.dropdownmenu a {
+display: block;
+width: 120px;
+height: 30px;
+line-height: 30px;
+padding: 3px 10px;
+
+}
+.dropdownmenu li:hover ul {
+
+display: block ;
+position: absolute;
+top: 0px; 
+left: 200px; 
+z-index: 100; 
+
+}
+
+/* Gestion des couleurs */ 
+.dropdownmenu li { 
+  background-color: black; /* Couleur d'arriere-plan du menu */ 
+
+}
+.dropdownmenu li a {
+  color: #ccc; /* Couleur du texte du menu */
+
+} 
+.dropdownmenu li:hover {
+  background-color: #000;
+
+   /* Couleur d'arriere-plan du menu au survol */ }
+.dropdownmenu li:hover a {
+  color: #fff; /* Couleur du texte du menu au survol */ 
+
+}
+.dropdownmenu ul li {
+  background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
+
+}
+.dropdownmenu ul li:hover {
+  background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */
+} 
+.dropdownmenu ul li a {
+  color: #666; /* Couleur du texte des sous-menu */ 
+} 
+.dropdownmenu ul li:hover a { 
+  color: #f00; /* Couleur du texte des sous-menu au survol */
+
+}
+
