@@ -2,8 +2,9 @@
 
 function tableau3col()
 {
-
-    echo "<table border><tr><td>colone 1</td></tr><tr><td>colone 2</td></tr><tr><td>colone 3</td></tr></table>";
+    $tableau=array("nom"=> "Flaquet", "prenom" => "Edouard", "mdp" => "123");
+    
+    echo "<table border><tr><td>".$tableau["nom"]."</td></tr><tr><td>".$tableau["prenom"]."</td></tr><tr><td>".$tableau["mdp"]."</td></tr></table>";
 }
 
 ?>
@@ -16,7 +17,6 @@ function tableau3col()
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS\styles2.css">
 </head>
 
 <body>
